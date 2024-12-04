@@ -19,6 +19,7 @@ namespace Game.Attributes
 
         public void TakeDamage(float damage)
         {
+            //ciao
             healthPoints =  Mathf.Max(healthPoints - damage, 0);
             if(healthPoints == 0)
             {
